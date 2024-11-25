@@ -5,6 +5,10 @@ Código de las consultas en  MongoDB y HBase
 # Código de las consultas en  MongoDB y HBase
 
 # MongoDB
+1. Diseño de la Base de Datos
+Caso de Uso: Almacenamiento de datos de una red social.
+Vamos a crear una base de datos para almacenar información de usuarios, publicaciones y comentarios.
+
 Nombre de la base de Datos: Social_Network
 Esquema de la base de datos:
 •	Colección users: Contendrá información de los usuarios.

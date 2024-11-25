@@ -238,9 +238,9 @@ nano test_hbase.py
 Copiamos las siguientes líneas y de nuevo damos Crtl+O enter y luego Crtl+X para salir
 import happybase 
 try: 
-# Intentar establecer conexión 
+ Intentar establecer conexión 
 connection = happybase.Connection('localhost') 
-# Listar las tablas existentes 
+ Listar las tablas existentes 
 print("Tablas existentes:", connection.tables()) 
 print("Conexión exitosa a HBase") 
 connection.close() 
@@ -268,7 +268,7 @@ import happybase
 import pandas as pd 
 from datetime import datetime 
  
-# Bloque principal de ejecución 
+ Bloque principal de ejecución 
 try: 
     # 1. Establecer conexión con HBase 
     connection = happybase.Connection('localhost') 
@@ -391,7 +391,7 @@ except Exception as e:
 print(f"Error: {str(e)}") 
 f
  inally: 
-# Cerrar la conexión 
+ Cerrar la conexión 
 connection.close()
 
 Damos Crtl+O enter y luego Crtl+X para salir
